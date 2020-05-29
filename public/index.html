@@ -1,0 +1,35 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>    
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyBVhmJPLFjcPB7Qfz6e_C3JK45Q2mrlyI0",
+        authDomain: "fit3140-assignment2-680aa.firebaseapp.com",
+        databaseURL: "https://fit3140-assignment2-680aa.firebaseio.com",
+        projectId: "fit3140-assignment2-680aa",
+        storageBucket: "fit3140-assignment2-680aa.appspot.com",
+        messagingSenderId: "662586638320"
+    };
+    firebase.initializeApp(config);
+    </script>
+    <title>FIT3140 Advanced Programming Assignment 2</title>
+</head>
+<body>
+    <div id="msgLog">
+        <div class="msgTitle">Traffic Analyzer</div>
+        <ul class="msgPart">
+            <li class="longMsg">Total number of long messages: <text id="longMsgNum">10</text></li>
+            <li class="shortMsg">Total number of short messages: <text id="shortMsgNum">10</text></li>
+            <li class="visitorMsg">Total number of visitors: <text id="visitorMsgNum">10</text></li>
+        </ul>
+        <button id="LEDButton" class="buttonSet">LED</button>
+        <button id="sensorButton">Sensor</button>
+        <button id="resetButton">Reset</button>
+    </div>
+</body>
+</html>

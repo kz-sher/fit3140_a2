@@ -1,0 +1,40 @@
+#msgLog{
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    width:50%;
+    height:90%;
+    margin: auto;
+}
+
+.msgTitle{
+    height:5%;
+    background-color: black;
+    font-family: monospace;
+    font-size: 25px;
+    color:white;
+    text-align: center;
+    padding: 15px 25px 15px 25px;
+}
+
+.msgPart{
+    height:80%;
+    background-color: #d9d9d9;
+    list-style-type: none;
+}
+
+.longMsg, .shortMsg, .visitorMsg{
+    font-family: monospace;
+    font-size: 25px;
+    padding:25px 25px 25px 25px;
+}
+
+button{
+    width:32%;
+    display: inline-flex;
+    padding: 15px 25px 15px 25px;
+    font-family: monospace;
+    font-size: 20px;
+    justify-content: center;
+}

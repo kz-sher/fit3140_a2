@@ -6,7 +6,7 @@
   "dependencies": {
     "bonescript": "^0.6.3",
     "express": "^4.16.3",
-    "firebase-admin": "^5.11.0",
+    "firebase-admin": "^11.4.1",
     "requirejs": "^2.3.5",
     "socket.io": "^2.0.4"
   },
